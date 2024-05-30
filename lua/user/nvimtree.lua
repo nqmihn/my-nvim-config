@@ -16,6 +16,7 @@ function M.config()
     sync_root_with_cwd = true,
     view = {
       relativenumber = true,
+      width = 45,
     },
     renderer = {
       add_trailing = false,
@@ -89,6 +90,7 @@ function M.config()
         warning = icons.diagnostics.BoldWarning,
         error = icons.diagnostics.BoldError,
       },
+      filters = { dotfiles = false, custom = {} },
     },
   }
 end

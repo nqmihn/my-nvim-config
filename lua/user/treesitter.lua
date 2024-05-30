@@ -14,6 +14,9 @@ function M.config()
       disable = {}, -- optional, list of language that will be disabled
       -- [options]
     },
+    autotag = {
+      enable = true,
+    },
   }
 end
 

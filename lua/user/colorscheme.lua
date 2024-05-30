@@ -11,6 +11,7 @@ function M.config()
       Comment = { fg = "#FF0000", bg = "#FFFF00", italic = true },
     },
   }
+
 end
 
 return M
